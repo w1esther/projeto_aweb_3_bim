@@ -19,16 +19,50 @@ body {
     position: relative;
     left: 310px;
     top: -270px;
+    color: rgb(222, 104, 145);
 }
 
 .fase2 {
     position: relative;
     left: 450px;
     top: -390px;
+    color: rgb(222, 104, 145);
 }
 
 .fase3 {
     position: relative;
     left: 350px;
     top: -505px;
+    color: rgb(222, 104, 145);
+}
+
+#coroa1 {
+    position: relative;
+    left: -31px;
+    top: 8px;
+    transition: transform 0.3s ease;
+}
+
+#coroa2 {
+    position: relative;
+    right:110px;
+    top: 15px;
+    transition: transform 0.3s ease;
+}
+
+#coroa3 {
+    position: relative;
+    left: -160px;
+    top: 7px;
+    transition: transform 0.3s ease;
+}
+
+.fa-crown:hover {
+    transform: scale(1.15);
+    color: rgb(211, 22, 123);
+}
+
+#elementos {
+    display: flex;
+    justify-content: center;
 }
