@@ -1,0 +1,34 @@
+.tabuleiro {
+    height: 800px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 
+        0 0 10px rgb(156, 70, 114),
+        0 0 20px rgb(156, 70, 114),
+        0 0 40px rgb(156, 70, 114);
+    position: relative;
+    left: 650px;
+    top: 50px;
+}
+
+body {
+    background-color: rgb(224, 144, 177);
+}
+
+.fase1 {
+    position: relative;
+    left: 310px;
+    top: -270px;
+}
+
+.fase2 {
+    position: relative;
+    left: 450px;
+    top: -390px;
+}
+
+.fase3 {
+    position: relative;
+    left: 350px;
+    top: -505px;
+}
