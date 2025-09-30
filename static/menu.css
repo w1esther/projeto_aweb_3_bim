@@ -32,12 +32,12 @@ body {
     background-image: linear-gradient(90deg, #a549d0, #fa63aa);
 }
 
-h1 {
+.titulo {
     position: relative;
     text-align: center;
     top: 250px;
     font-size: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Press Start 2P', sans-serif;
     color: #ffffff;
     text-shadow: 2px 2px 5px rgb(87, 14, 72);
 
@@ -57,15 +57,16 @@ h1 {
 
 .iniciar {
     position: relative;
-    left: 15px;
-    top: 20px;
+    left: 10px;
+    top: 30px;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 25px;
     color: #ffffff;
+    font-family: 'Press Start 2P', sans-serif;
 }
 
 .retangulo1:hover {
-    background-color: #640852;
+    background-color: #d956bf;
     transform: scale(1.15);
 }
 

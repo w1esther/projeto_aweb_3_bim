@@ -115,21 +115,21 @@ h2 {
     height: 20px;
     background: linear-gradient(to right,rgb(255, 180, 213) 40%,rgb(212, 121, 168)30% );
     position: relative;
-    left: 25px;
-    top: -50px;
+    left: 0px;
+    top: 5px;
     border-radius: 15px;
 }
 
 #p2 {
     position: relative;
-    top: 100px;
+    top: -65px;
     left: 240px;
 }
 
 #p3 {
     font-size: 22px;
     position: relative;
-    top: px;
+    top: 25px;
     left: 50px;
 }
 
@@ -157,7 +157,7 @@ h2 {
     font-size: 60px;
     font-weight: 900px;
     position: relative;
-    top: -175px;
+    top: 35px;
     left: 270px;
 }
 

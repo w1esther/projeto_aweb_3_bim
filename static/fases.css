@@ -1,0 +1,18 @@
+.body_f1 {
+    background-color: rgb(248, 188, 218);
+}
+
+.h1_f1 {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgb(87, 14, 72);
+}
+
+.img_html {
+    height: 100px;
+    position: relative;
+    left: 1050px;
+    top: -50px;
+}

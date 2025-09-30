@@ -7,7 +7,7 @@
         0 0 20px rgb(156, 70, 114),
         0 0 40px rgb(156, 70, 114);
     position: relative;
-    left: 650px;
+    left: 450px;
     top: 50px;
 }
 
@@ -38,21 +38,21 @@ body {
 
 #coroa1 {
     position: relative;
-    left: -31px;
+    left: -230px;
     top: 8px;
     transition: transform 0.3s ease;
 }
 
 #coroa2 {
     position: relative;
-    right:110px;
+    right:300px;
     top: 15px;
     transition: transform 0.3s ease;
 }
 
 #coroa3 {
     position: relative;
-    left: -160px;
+    left: -360px;
     top: 7px;
     transition: transform 0.3s ease;
 }
@@ -65,5 +65,13 @@ body {
 #elementos {
     display: flex;
     justify-content: center;
+}
+
+.h1_mapa1 {
+    color: aliceblue;
+    position: relative;
+    top: 20px;
+    left: 600px;
+    text-shadow: 2px 2px 5px rgb(87, 14, 72);
 }
 
