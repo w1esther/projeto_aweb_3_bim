@@ -8,7 +8,7 @@ body {
     height: 650px;
     position: relative;
     top: 25px;
-    left: 500px;
+    left: 0px;
     border-radius: 10px;
     border: 10px solid rgb(198, 100, 144);
     box-shadow: 
@@ -17,9 +17,9 @@ body {
         0 0 40px rgb(156, 70, 114);
 }
  
-h1 {
+.player {
     position: relative;
-    top: 35px;
+    top: 25px;
     left: -25px;
 }
 
@@ -38,8 +38,8 @@ h1 {
     width: 400px;
     background-color: #f49cbe;
     position: relative;
-    top: -635px;
-    left: 535px;
+    top: -590px;
+    left: 0px;
     border-radius: 20px 20px 0 0;
     box-shadow: 
         0 0 10px rgb(222, 127, 176),
@@ -55,7 +55,7 @@ h1 {
 
 h2 {
     position: relative;
-    top: 120px;
+    top: 150px;
     text-align: center;
     font-family: 'Press Start 2P', sans-serif;
     font-size: 22px;
@@ -67,8 +67,8 @@ h2 {
     width: 400px;
     background-color: rgb(247, 146, 182);
     position: relative;
-    top: -530px;
-    left: 538px;
+    top: -480px;
+    left: 0px;
     box-shadow: 
         0 0 10px rgb(222, 127, 176),
         0 0 10px rgb(156, 70, 114),
@@ -80,8 +80,8 @@ h2 {
     width: 150px;
     background-color: rgb(255, 180, 213);
     position: relative;
-    top: 20px;
-    left: 20px;
+    top: 10px;
+    left: -110px;
     border-radius: 10px;
     
 }
@@ -91,8 +91,8 @@ h2 {
     height: 20px;
     background-color: rgb(255, 180, 213);
     position: relative;
-    left: 185px;
-    top: -120px;
+    left: 85px;
+    top: -90px;
     border-radius: 5px;
 }
 
@@ -101,12 +101,12 @@ h2 {
     font-size: 28px;
     color: aliceblue;
     position: relative;
-    top: -40px;
+    top: -30px;
 }
 
 #retangulo6 {
     position: relative;
-    top: -85px;
+    top: -65px;
     height: 25px;
 }
 
@@ -122,14 +122,14 @@ h2 {
 
 #p2 {
     position: relative;
-    top: -100px;
+    top: 100px;
     left: 240px;
 }
 
 #p3 {
     font-size: 22px;
     position: relative;
-    top: -50px;
+    top: px;
     left: 50px;
 }
 
@@ -172,14 +172,14 @@ h2 {
 .back {
     position: relative;
     left: 10px;
-    top: -92px;
+    top: -48px;
     color: #efe6e9;
     font-family: "VT323", monospace;
 }
 
 .esther {
     position: relative;
-    top: -60px;
+    top: -32px;
     left: 10px;
     color: #efe6e9;
     font-family: "VT323", monospace;
