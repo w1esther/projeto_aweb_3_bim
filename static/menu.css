@@ -7,7 +7,7 @@
 #menu {
     list-style: none;
     padding: 0;
-    background-image: linear-gradient(90deg, #720ca0, #892855);
+    background-image: linear-gradient(90deg, #c54d95, #8242b6);
     text-align: right;
 }
 
@@ -29,7 +29,7 @@
 }
 
 body {
-    background-image: linear-gradient(90deg, #a549d0, #fa63aa);
+    background-image: linear-gradient(90deg, #e085c9, #a966c8);
 }
 
 .titulo {
