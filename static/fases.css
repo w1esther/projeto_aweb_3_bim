@@ -5,9 +5,12 @@
 .h1_f1 {
     text-align: center;
     position: relative;
-    top: 40px;
+    top: -40px;
+    left: 520px;
     color: #ffffff;
     text-shadow: 2px 2px 5px rgb(87, 14, 72);
+    background-color: #e7a8cc;
+    display: inline;
 }
 
 .img_html {
@@ -15,4 +18,120 @@
     position: relative;
     left: 1050px;
     top: -50px;
+}
+
+.titulo_texto {
+    text-align: center;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 5px rgb(87, 14, 72);
+    background-color: #e7a8cc;
+    display: inline;
+    position: relative;
+    left: 650px;
+}
+
+.texto {
+    width: 600px;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    background-color: #e7a8cc;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+}
+
+.img1_fase1 {
+    position: relative;
+    left: 550px;
+}
+
+#tp2 {
+    position: relative;
+    top: 100px;
+}
+
+#p2 {
+    position: relative;
+    top: 100px;
+}
+
+#img2_f2 {
+    position: relative;
+    top: 100px;
+    left: 600px;
+    background-color: #e7a8cc;
+}
+
+#tp3 {
+    position: relative;
+    top: 200px;
+}
+
+#p3 {
+    position: relative;
+    top: 200px;
+}
+
+.tabela1 {
+    border: 3px solid;
+    border-collapse: collapse;
+    text-align: center;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    position: relative;
+    left: 460px;
+    top: 200px;
+}
+
+tr, th, td {
+    border: 3px solid;
+    border-color: #ed8ec4;
+}
+
+#tp4 {
+    position: relative;
+    top: 300px;
+}
+
+#p4 {
+    position: relative;
+    top: 300px;
+}
+
+#p5 {
+    top: 300px;
+}
+
+.concluir {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Press Start 2P', sans-serif;
+    position: relative;
+    left: 650px;
+    top: 300px;
+}
+
+.concluirf {
+    height: 100px;
+    width: 200px;
+    background-color: #e7a8cc;
+    position: relative;
+    left: 650px;
+    top: 300px;
+    border: 3px solid;
+    border-color:#ed8ec4;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#concluirf1 {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.concluirf:hover{
+    transform: scale(1.25);
+    background-color: #c2428a;
 }
