@@ -9,7 +9,7 @@
     left: 520px;
     color: #ffffff;
     text-shadow: 2px 2px 5px rgb(87, 14, 72);
-    background-color: #e7a8cc;
+    background-color: #bc6697;
     display: inline;
 }
 
@@ -24,7 +24,7 @@
     text-align: center;
     color: #fbf0fa;
     text-shadow: 1px 1px 5px rgb(87, 14, 72);
-    background-color: #e7a8cc;
+    background-color: #bc6697;
     display: inline;
     position: relative;
     left: 650px;
@@ -35,7 +35,7 @@
     text-align: center;
     position: relative;
     left: 450px;
-    background-color: #e7a8cc;
+    background-color: #bc6697;
     color: #fbf0fa;
     text-shadow: 1px 1px 2px rgb(87, 14, 72);
 }
@@ -59,7 +59,7 @@
     position: relative;
     top: 100px;
     left: 600px;
-    background-color: #e7a8cc;
+    background-color: #9e2d6d;
 }
 
 #tp3 {
@@ -81,6 +81,7 @@
     position: relative;
     left: 460px;
     top: 200px;
+    background-color: #bc6697;
 }
 
 tr, th, td {
