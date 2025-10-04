@@ -1,3 +1,5 @@
+/* css da fase 1 */
+
 .body_f1 {
     background-color: rgb(248, 188, 218);
 }
@@ -11,6 +13,7 @@
     text-shadow: 2px 2px 5px rgb(87, 14, 72);
     background-color: #bc6697;
     display: inline;
+    font-family: "SUSE Mono", monospace;
 }
 
 .img_html {
@@ -28,6 +31,7 @@
     display: inline;
     position: relative;
     left: 650px;
+    font-family: "SUSE Mono", monospace;
 }
 
 .texto {
@@ -38,6 +42,7 @@
     background-color: #bc6697;
     color: #fbf0fa;
     text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
 }
 
 .img1_fase1 {
@@ -48,6 +53,7 @@
 #tp2 {
     position: relative;
     top: 100px;
+    left: 600px;
 }
 
 #p2 {
@@ -79,9 +85,10 @@
     color: #fbf0fa;
     text-shadow: 1px 1px 2px rgb(87, 14, 72);
     position: relative;
-    left: 460px;
-    top: 200px;
+    left: 300px;
+    top: 250px;
     background-color: #bc6697;
+    font-family: "SUSE Mono", monospace;
 }
 
 tr, th, td {
@@ -92,6 +99,7 @@ tr, th, td {
 #tp4 {
     position: relative;
     top: 300px;
+    left: 700px;
 }
 
 #p4 {
@@ -105,12 +113,9 @@ tr, th, td {
 
 .concluir {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #ffffff;
     font-family: 'Press Start 2P', sans-serif;
-    position: relative;
-    left: 650px;
-    top: 300px;
 }
 
 .concluirf {
@@ -128,11 +133,100 @@ tr, th, td {
 
 #concluirf1 {
     position: relative;
-    top: 20px;
-    left: 50px;
+    top: 35px;
+    left: 20px;
 }
 
 .concluirf:hover{
     transform: scale(1.25);
     background-color: #c2428a;
+}
+
+.imgatributo {
+    position: relative;
+    top: 250px;
+    left: 400px;
+}
+
+.imgtag {
+    position: relative;
+    top: 200px;
+    left: 350px;
+}
+
+/* css fase 2 */
+
+#h1fase2 {
+    position: relative;
+    top: 30px;
+}
+
+#t1p2 {
+    position: relative;
+    left: 170px;
+    top: 130px;
+}
+
+#p1p2 {
+    position: relative;
+    top: 150px;
+}
+
+.imgcss1 {
+    position: relative;
+    top: 100px;
+    left: 350px;
+}
+
+#t2p2 {
+    position: relative;
+    top: 120px;
+    left: 500px;
+}
+
+#p2p2 {
+    position: relative;
+    top: 150px;
+}
+
+.img2p2 {
+    position: relative;
+    top: 150px;
+    left: 500px;
+    background-color: #e379b6;
+    border-radius: 10px;
+}
+
+#p3p2 {
+    position: relative;
+    top: 150px;
+}
+
+.img3p2 {
+    background-color: #e980bb;
+    position: relative;
+    top: 150px;
+    left: 530px;
+    border-radius: 10px;
+}
+
+#p4p2 {
+    position: relative;
+    top: 170px;
+}
+
+.img4p2 {
+    background-color: #dc75af;
+    border-radius: 10px;
+    position: relative;
+    left: 550px;
+    top: 150px;
+}
+
+.img5p2 {
+    background-color: #dc75af;
+    border-radius: 10px;
+    position: relative;
+    left: 600px;
+    top: 170px;
 }

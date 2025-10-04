@@ -71,8 +71,9 @@ body {
     color: aliceblue;
     position: relative;
     top: 20px;
-    left: 600px;
+    left: 570px;
     text-shadow: 2px 2px 5px rgb(87, 14, 72);
+    font-family: 'Press Start 2P', sans-serif;
 }
 
 .fase1:visited {
