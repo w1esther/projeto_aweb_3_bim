@@ -66,6 +66,9 @@
     top: 100px;
     left: 600px;
     background-color: #9e2d6d;
+    border: 8px solid;
+    border-color: #e761ad;
+    border-radius: 10px;
 }
 
 #tp3 {
@@ -195,6 +198,8 @@ tr, th, td {
     left: 500px;
     background-color: #e379b6;
     border-radius: 10px;
+    border: 8px solid;
+    border-color: #9e2d6d;
 }
 
 #p3p2 {
@@ -208,6 +213,8 @@ tr, th, td {
     top: 150px;
     left: 530px;
     border-radius: 10px;
+    border: 8px solid;
+    border-color: #9e2d6d;
 }
 
 #p4p2 {
@@ -221,6 +228,8 @@ tr, th, td {
     position: relative;
     left: 550px;
     top: 150px;
+    border: 8px solid;
+    border-color: #9e2d6d;
 }
 
 .img5p2 {
@@ -229,4 +238,67 @@ tr, th, td {
     position: relative;
     left: 600px;
     top: 170px;
+    border: 8px solid;
+    border-color: #9e2d6d;
+}
+
+#t3p2 {
+    position: relative;
+    left: 500px;
+    top: 250px;
+}
+
+#p5p2 {
+    position: relative;
+    top: 250px;
+}
+
+.img6p2 {
+    position: relative;
+    left: 650px;
+    top: 250px;
+    border: 8px solid;
+    border-color: #9e2d6d;
+    background-color: #dc75af;
+    border-radius: 10px;
+}
+
+#p6p2 {
+    top: 250px;
+}
+
+.img7p2 {
+    position: relative;
+    left: 430px;
+    top: 200px;
+}
+
+/* css fase 3 */
+
+#h1p3 {
+    position: relative;
+    left: 470px;
+    top: 30px;
+}
+
+#t2p3 {
+    position: relative;
+    left: 570px;
+    top: 70px;
+}
+
+#p1p3 {
+    top: 100px;
+}
+
+.img1p3 {
+    position: relative;
+    left: 350px;
+    top: 80px;
+}
+
+/* extra */
+
+#coroa1.visitado {
+  color: gold;
 }

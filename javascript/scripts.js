@@ -1,14 +1,8 @@
-// Função para marcar no localStorage
-function marcarPaginaVisitada(chave) {
-  localStorage.setItem(chave, "true");
-}
+window.addEventListener("DOMContentLoaded", () => {
+  const icone = document.getElementById("coroa1");
 
-// Função para verificar páginas visitadas
-document.addEventListener("DOMContentLoaded", () => {
-  if (localStorage.getItem("pagina2Visitada")) {
-    const link = document.getElementById("link2");
-    if (link) {
-      link.classList.add("visitado");
-    }
+  // Verifica se a outra página já foi visitada
+  if (localStorage.getItem("outraVisitada") === "true") {
+    icone.classList.add("visitado");
   }
 });
