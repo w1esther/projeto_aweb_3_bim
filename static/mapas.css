@@ -80,3 +80,7 @@ body {
     background-color: rgb(100, 5, 57);
     text-decoration: underline;
 }
+
+#coroa1.visitado {
+  color: gold; /* Ou qualquer cor desejada */
+}

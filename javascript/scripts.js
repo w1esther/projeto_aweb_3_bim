@@ -1,8 +1,14 @@
 window.addEventListener("DOMContentLoaded", () => {
   const icone = document.getElementById("coroa1");
-
-  // Verifica se a outra página já foi visitada
   if (localStorage.getItem("outraVisitada") === "true") {
-    icone.classList.add("visitado");
+    if (icone) icone.classList.add("visitado");
+  }
+
+  // Marcar como visitado ao clicar no botão "CONCLUIR FASE"
+  const concluirBtn = document.getElementById("concluirf1");
+  if (concluirBtn) {
+    concluirBtn.addEventListener("click", () => {
+      localStorage.setItem("outraVisitada", "true");
+    });
   }
 });
