@@ -297,8 +297,50 @@ tr, th, td {
     top: 80px;
 }
 
+#t3p3 {
+    left: 590px;
+    position: relative;
+    top: 100px;
+}
+
+#p2p3 {
+    position: relative;
+    top: 130px;
+}
+
+.img2p3 {
+    position: relative;
+    left: 550px;
+    top: 150px;
+    border: 8px solid;
+    border-color: #9e2d6d;
+    background-color: #dc75af;
+    border-radius: 10px;
+}
+
+#p3p3 {
+    top: 200px;
+}
+
+.img3p3 {
+    position: relative;
+    left: 550px;
+    top: 220px;
+    border: 8px solid;
+    border-color: #9e2d6d;
+    background-color: #dc75af;
+    border-radius: 10px;
+}
+
+#p4p3 {
+    position: relative;
+    top: 250px;
+}
+
 /* extra */
 
 #coroa1.visitado {
   color: gold;
 }
+
+
