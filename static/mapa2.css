@@ -1,0 +1,63 @@
+.tabuleiro2 {
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    box-shadow: 
+        0 0 10px rgb(156, 70, 156),
+        0 0 20px rgb(88, 16, 102),
+        0 0 40px rgb(88, 36, 90);
+    position: relative;
+    left: 450px;
+    top: 50px;
+}
+.h1_mapa2 {
+    color: aliceblue;
+    position: relative;
+    top: 20px;
+    left: 570px;
+    text-shadow: 2px 2px 5px rgb(87, 14, 72);
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.fase4 {
+    position: relative;
+    left: 90px;
+    top: -270px;
+    color: rgb(138, 76, 196);
+}
+.fase5 {
+    position: relative;
+    left: 180px;
+    top: -380px;
+    color: rgb(138, 76, 196);
+}
+.fase6 {
+    position: relative;
+    left: 18px;
+    top: -495px;
+    color: rgb(138, 76, 196);
+}
+#coracao {
+    position: relative;
+    top: 4px;
+    font-size: 60px;
+    transition: transform 0.3s ease;
+}
+
+#coracao2 {
+    position: relative;
+    top: 7px;
+    font-size: 60px;
+    transition: transform 0.3s ease;
+}
+
+#coracao3 {
+    position: relative;
+    top: 3px;
+    font-size: 60px;
+    transition: transform 0.3s ease;
+}
+#elementos-m2 {
+    display: flex;
+    justify-content: center;
+}

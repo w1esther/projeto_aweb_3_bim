@@ -1,0 +1,186 @@
+body {
+    background-color: rgb(211, 143, 208);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.retangulo {
+    background-color: rgb(170, 76, 199);
+    width: 450px;
+    height: 650px;
+    position: relative;
+    top: 25px;
+    left: 400px;
+    border-radius: 10px;
+    border: 10px solid rgb(95, 51, 104);
+    box-shadow: 
+        0 0 10px rgb(86, 14, 114),
+        0 0 20px rgb(195, 73, 206),
+        0 0 40px rgb(114, 52, 111);
+}
+ 
+.player {
+    position: relative;
+    top: 25px;
+    left: -25px;
+}
+
+.retangulo2 {
+    font-size: 14px;
+    color: aliceblue;
+    text-align: center;
+    /* position: relative;
+    top: -500px; */
+    text-shadow: 
+    0 0 5px #4c1363,
+    0 0 10px #873b8a,
+    0 0 20px #571353;
+    height: 100px;
+    width: 400px;
+    background-color: #9738a0;
+    position: relative;
+    top: -590px;
+    left: 435px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 
+        0 0 10px rgb(86, 14, 114),
+        0 0 20px rgb(195, 73, 206),
+        0 0 40px rgb(114, 52, 111);
+}
+
+.trofeu {
+    position: relative;
+    top: -20px;
+    left: 160px;
+    width: 140px;
+    height: 160px;
+}
+
+h2 {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+.retangulo3 {
+    height: 380px;
+    width: 400px;
+    background-color: rgb(185, 103, 185);
+    position: relative;
+    top: -520px;
+    left: 435px;
+    box-shadow: 
+        0 0 10px rgb(86, 14, 114),
+        0 0 20px rgb(195, 73, 206),
+        0 0 40px rgb(114, 52, 111);
+}
+
+.retangulo4 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(182, 55, 214);
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+    
+}
+
+.retangulo5 {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(150, 100, 173);
+    position: relative;
+    left: 180px;
+    top: -100px;
+    border-radius: 5px;
+}
+
+.p1 {
+    font-size: 28px;
+    color: aliceblue;
+    position: relative;
+    top: -30px;
+    left: 100px;
+}
+
+.retangulo6 {
+    position: relative;
+    top: -65px;
+    height: 25px;
+}
+
+.retangulo7 {
+    width: 350px;
+    height: 20px;
+    background: linear-gradient(to right,rgb(157, 81, 180) 40%,rgb(173, 34, 185)30% );
+    position: relative;
+    left: 25px;
+    top: -50px;
+    border-radius: 15px;
+}
+
+#p2 {
+    position: relative;
+    top: -100px;
+    left: 240px;
+}
+
+#p3 {
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+
+.estrela {
+    position: relative;
+    top: -200px;
+    left: -20px;
+    height: 100px;
+    width: 160px;
+}
+
+.medalha {
+    position: relative;
+    top: -55px;
+    left: 110px;
+    height: 120px;
+    width: 110px;
+}
+
+.barrinha {
+    height: 200px;
+    width: 400px;
+    position: relative;
+    top: -175px;
+    left: 270px;
+}
+
+.abigail {
+    height: 130px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.fullstack {
+    position: relative;
+    left: 10px;
+    top: -48px;
+    color: #efe6e9;
+    font-family: "VT323", monospace;
+}
+
+.heloisa {
+    position: relative;
+    top: -60px;
+    left: 10px;
+    color: #efe6e9;
+    font-family: "VT323", monospace;
+
+}
