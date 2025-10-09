@@ -337,6 +337,37 @@ tr, th, td {
     top: 250px;
 }
 
+#img4p3 {
+    position: relative;
+    left: 600px;
+    top: 250px;
+}
+
+#p5p3 {
+    position: relative;
+    top: 300px;
+}
+
+#img5p3 {
+    position: relative;
+    top: 300px;
+}
+
+#p6p3 {
+    position: relative;
+    top: 350px;
+}
+
+#img6p3 {
+    position: relative;
+    left: 470px;
+    top: 350px;
+}
+
+#concluirfase3 {
+    top: 400px;
+}
+
 /* extra */
 
 #coroa1.visitado {
