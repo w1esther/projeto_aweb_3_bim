@@ -84,3 +84,34 @@ body {
 #coroa1.visitado {
   color: gold; /* Ou qualquer cor desejada */
 }
+
+.concluir {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.concluirf {
+    height: 100px;
+    width: 200px;
+    background-color: #e7a8cc;
+    position: relative;
+    left: -50px;
+    top: 100px;
+    border: 3px solid;
+    border-color:#ed8ec4;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#concluirf1 {
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+.concluirf:hover{
+    transform: scale(1.25);
+    background-color: #c2428a;
+}

@@ -9,7 +9,7 @@ body {
     height: 650px;
     position: relative;
     top: 25px;
-    left: 400px;
+    left: 0px;
     border-radius: 10px;
     border: 10px solid rgb(95, 51, 104);
     box-shadow: 
@@ -21,7 +21,7 @@ body {
 .player {
     position: relative;
     top: 25px;
-    left: -25px;
+    left: 0px;
 }
 
 .retangulo2 {
@@ -39,7 +39,7 @@ body {
     background-color: #9738a0;
     position: relative;
     top: -590px;
-    left: 435px;
+    left: px;
     border-radius: 20px 20px 0 0;
     box-shadow: 
         0 0 10px rgb(86, 14, 114),
@@ -70,7 +70,7 @@ h2 {
     background-color: rgb(185, 103, 185);
     position: relative;
     top: -520px;
-    left: 435px;
+    left: px;
     box-shadow: 
         0 0 10px rgb(86, 14, 114),
         0 0 20px rgb(195, 73, 206),
@@ -83,7 +83,7 @@ h2 {
     background-color: rgb(182, 55, 214);
     position: relative;
     top: 20px;
-    left: 20px;
+    left: -100px;
     border-radius: 10px;
     
 }
@@ -93,7 +93,7 @@ h2 {
     height: 20px;
     background-color: rgb(150, 100, 173);
     position: relative;
-    left: 180px;
+    left: 90px;
     top: -100px;
     border-radius: 5px;
 }
@@ -103,13 +103,14 @@ h2 {
     color: aliceblue;
     position: relative;
     top: -30px;
-    left: 100px;
+    left: 0px;
 }
 
 .retangulo6 {
     position: relative;
-    top: -65px;
+    top: -55px;
     height: 25px;
+    left: 200px;
 }
 
 .retangulo7 {
@@ -117,15 +118,15 @@ h2 {
     height: 20px;
     background: linear-gradient(to right,rgb(157, 81, 180) 40%,rgb(173, 34, 185)30% );
     position: relative;
-    left: 25px;
-    top: -50px;
+    left: 0px;
+    top: 10px;
     border-radius: 15px;
 }
 
 #p2 {
     position: relative;
-    top: -100px;
-    left: 240px;
+    top: -62px;
+    left: 200px;
 }
 
 #p3 {
