@@ -5,7 +5,7 @@
     text-align: center;
     position: relative;
     top: 60px;
-    left: 520px;
+    left: 600px;
     color: #ffffff;
     text-shadow: 2px 2px 5px rgb(87, 14, 72);
     background-color: #9649b9;
@@ -16,7 +16,7 @@
     width: 600px;
     text-align: center;
     position: relative;
-    left: 450px;
+    left: 500px;
     top: 100px;
     background-color: #9649b9;
     color: #fbf0fa;
@@ -46,22 +46,27 @@
     font-family: "SUSE Mono", monospace;
 }
 .img1-f4 {
-    margin-left: 500px;
+    margin-left: 570px;
     margin-top: 100px;
 }
 .img2-f4 {
     margin-left: 250px;
     margin-top: 100px;
+    width: 500px;
+    position: relative;
+    left: 280px;
 }
 .img3-f4 {
     margin-left: 500px;
     margin-top: 100px;
+    position: relative;
+    left: 100px;
 }
 .h2-f4 {
     width: 100px;
     text-align: center;
     position: relative;
-    left: 620px;
+    left: 720px;
     top: 100px;
     background-color: #9649b9;
     color: #fbf0fa;
@@ -78,4 +83,14 @@
     color: #fbf0fa;
     text-shadow: 1px 1px 2px rgb(87, 14, 72);
     font-family: "SUSE Mono", monospace;
+}
+
+#p3 {
+    position: relative;
+    left: 500px;
+}
+
+#h23 {
+    position: relative;
+    left: 700px;
 }
