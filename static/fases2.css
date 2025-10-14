@@ -1,4 +1,4 @@
-.body-f4 {
+/* .body-f4 {
     background-color: #a262b6;
 }
 .h1-f4 {
@@ -88,6 +88,258 @@
 #p3 {
     position: relative;
     left: 500px;
+}
+
+#h23 {
+    position: relative;
+    left: 700px;
+}
+
+.h1-2-f5 {
+    width: 370px;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    top: 20px;
+    background-color: #9649b9;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace; 
+}
+.concluir {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Press Start 2P', sans-serif;
+    height: 100px;
+    width: 200px;
+    background-color: #a275cc;
+    position: relative;
+    left: 650px;
+    top: 300px;
+    border: 3px solid;
+    border-color:#744a88;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#concluirf4 {
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+.concluirf:hover{
+    transform: scale(1.25);
+    background-color: #6734a1;
+}
+.tag-img {
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.background-1 {
+    width: 500px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 500px;
+} */
+
+.body-f4 {
+    background-color: #8463ba;
+}
+.h1-f4 {
+    text-align: center;
+    position: relative;
+    top: 60px;
+    left: 600px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgb(87, 14, 72);
+    background-color: #7849b9;
+    display: inline;
+    font-family: "SUSE Mono", monospace;
+}
+.p1-f4,
+.p2-f4,
+.p3-f4 {
+    width: 600px;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    top: 100px;
+    background-color: #7849b9;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
+}
+.img1-f4 {
+    margin-left: 550px;
+    margin-top: 130px;
+}
+.img2-f4 {
+    margin-left: 400px;
+    margin-top: 100px;
+    position: relative;
+    border: 8px solid;
+    border-color: #6640a6;
+    background-color: #a889d3;
+    border-radius: 10px;
+}
+.seta-f4 {
+    width: 200px;
+}
+.img3-f4 {
+    width: 300px;
+    height: 200px;
+}
+.img4-f4 {
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.h2-f4,
+.h2-2-f4,
+.h2-3-f4,
+.h2-4-f4 {
+    text-align: center;
+    position: relative;
+    left: 650px;
+    background-color: #7849b9;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
+}
+.h2-f4 {
+    position: relative;
+    top: 50px;
+    width: 100px;
+    left: 700px;
+}
+.h2-2-f4 {
+    top: 50px;
+    width: 100px;
+}
+.h2-3-f4 {
+    top: 50px;
+    width: 100px;
+}
+.h2-4-f4 {
+    top: 50px;
+    width: 150px;
+}
+.body-f5 {
+    background-color: #a262b6;
+}
+.f5-img1 {
+    width: 400px;
+    height: 300px;
+}
+.f5-img2 {
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+}
+p,
+.obs-f4{
+    text-align: center;
+    position: relative;
+    left: 550px;
+    top: 20px;
+    background-color: #7849b9;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
+}
+p {
+    width: 600px;
+}
+.obs-f4 {
+    width: 430px;
+}
+pre {
+    left: 200px;
+    margin-top: 150px;
+    margin-left: 500px;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
+}
+.h2-css {
+    width: 330px;
+    text-align: center;
+    position: relative;
+    left: 550px;
+    top: 20px;
+    background-color: #7849b9;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
+}
+.h2-2-css {
+    width: 60px;
+    text-align: center;
+    position: relative;
+    left: 550px;
+    margin-top: 100px;
+    background-color: #7849b9;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace;
+}
+
+.h1-f5,
+.h1-2-f4 {
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 350px;
+    margin-top: 60px;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.h1-2-f5 {
+    width: 370px;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    top: 20px;
+    background-color: #7849b9;
+    color: #fbf0fa;
+    text-shadow: 1px 1px 2px rgb(87, 14, 72);
+    font-family: "SUSE Mono", monospace; 
+}
+.concluir {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Press Start 2P', sans-serif;
+    height: 200px;
+    width: 200px;
+    background-color: #a275cc;
+    position: relative;
+    left: 550px;
+    top: 300px;
+    border: 3px solid;
+    border-color:#744a88;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#concluirf4 {
+    position: relative;
+    top: 85px;
+    left: -300px;
+}
+
+.concluirf:hover{
+    transform: scale(1.25);
+    background-color: #6734a1;
+}
+.tag-img {
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.background-1 {
+    width: 500px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 500px;
 }
 
 #h23 {
