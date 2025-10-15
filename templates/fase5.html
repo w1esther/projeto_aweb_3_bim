@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 5</title>
+    <link rel="stylesheet" href="/static/fases2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body class="body-f5">
+    <div class="elementos-introd">
+    <h1 class="h1-f5">Você desbloqueou:</h1>
+    <h1 class="h1-2-f5">★ CSS e JavaScript parte 2 ★</h1>
+    <p id="p1f5">Nessa fase você vai se aprofundar mais no CSS e no JavaScript, que já lhe foram apresentadas anteriormente.</p>
+    </div>
+
+    <div class="elementos-css">
+    <h2 class="h2-2-css">CSS</h2>
+    <img src="/img/css.png" class="img-css-f5" alt="css-logo">
+    <p class="p-css"id="p1f5"> Como você já viu, o CSS é o código que você usa para dar estilo à sua página Web, permitindo a aplicação de estilos seletivamente a elementos em documentos HTML.</p>
+    <h2 class="h2-css">Pseudo-classes</h2>
+    <p id="p1f5">
+        Uma pseudo-classe CSS é uma palavra-chave que pode ser adicionada a um seletor para definir um estilo para um estado especial de um elemento
+    </p>
+    <h2 class="h2-4-f4">Exemplos:</h2>
+    <table border="1" class="tabela-f5">
+        <tr>
+            <th>APLICAÇÃO</th>
+            <th>PSEUDO-CLASSE</th>
+        </tr>
+        <tr>
+            <td>Estilizar um elemento quando um usuário move o mouse sobre ele </td>
+            <td><b>:hover</b></td>
+        </tr>
+        <tr>
+            <td>Estilize links visitados e não visitados de forma diferente</td>
+            <td><b>:visited</b></td>
+        </tr>
+    </table>
+    <h2 class="h2-css">🌈 Gradientes</h2>
+    <p id="p1f5">Um gradiente cria um efeito de transição suave entre duas ou mais cores, misturando tons - ótimo pra <b>fundos, botões e banners.</b></p>
+    <pre class="pre-2">
+        .<b>meu-elemento</b> {
+             background: linear-gradient(to <b>direction, color1, color2, ...</b>);
+        }
+    </pre>
+    <div class="w3-container"></div>
+    <h2 class="h2-css">Flutuação (float)</h2>
+    <p id="p1f5">A propriedade <b>float</b> serve para fazer um elemento "flutuar" para o lado esquerdo ou direito do seu contêiner, permitindo que outros elementos fiquem ao redor dele, como o texto.</p>
+     <table border="1" class="tabela-f5">
+        <tr>
+            <th>APLICAÇÃO</th>
+            <th>PROPRIEDADE</th>
+        </tr>
+        <tr>
+            <td>Move o elemento para a esquerda</td>
+            <td><b>float: left;</b></td>
+        </tr>
+        <tr>
+            <td>Move o elemento para a direita</td>
+            <td>float: right;</td>
+        </tr>
+        <tr>
+            <td>Evita que outros elementos subam ao lado de floats</td>
+            <td>clear: both;</td>
+        </tr>
+    </table>
+    </div>
+
+    <div class="elementos-js">
+    <h2 class="h2-3-css">JavaScript</h2>
+    <img src="/img/js.png" class="img-css-f5" alt="logo js">
+    <p id="p1f5">
+        Como você á viu, o JavaScript é a linguagem de programação usada para dar <b>interatividade</b> às páginas web.
+        Com ele, é possível mudar o conteúdo, reagir a cliques, fazer animações, validar formulários, e conectar o site a servidores.
+    </p>
+    <h2 class="h2-css">Funções de Tempo</h2>
+    <p id="p1f5">Essas funções permitem executar código depois de um tempo ou repetidamente, sendo <b>setTimeout</b> ou <b>setInterval.</b></p>
+    <br>
+    <ul class="lista-f5">
+        <li>SetTimeout()</li>
+    </ul>
+    <br>
+    <p id="p1f5">Executa uma ação uma única vez, depois de um determinado tempo (em milissegundos).</p>
+    <br>
+    <pre class="pre-3">
+        setTimeout(() => {
+            console.log("Passaram 3 segundos!");
+        }, 3000);
+    </pre>
+    <ul class="lista-f5">
+        <li>SetInterval()</li>
+    </ul>
+    <p id="p1f5">Executa uma ação várias vezes, repetindo em intervalos fixos.</p>
+    <br>
+    <pre class="pre-3">
+        setInterval(() => {
+            console.log("A cada 2 segundos!");
+        }, 2000);
+    </pre>
+    <p class="obs-f5" id="p1f5"><b>★ OBS:</b> Você pode guardar o intervalo em uma variável e depois parar com <b>clearInterval():</b></p>
+    <br>
+    <pre class="pre-3">
+        let contador = 0;
+            let repetir = setInterval(() => {
+            contador++;
+            console.log(contador);
+            if (contador === 5) {
+            clearInterval(repetir);
+            }
+        }, 1000);
+    </pre>
+    </div>
+    <!-- <div class="concluirf">
+        <a href="/templates/mapa2.html" class="concluir" id="concluirf4">CONCLUIR FASE</a>
+    </div> -->
+
+    <div class="concluirf">
+        <a href="/templates/mapa2.html" class="concluir" id="concluirf1">CONCLUIR FASE</a>
+    </div>
+</body>
+</html>
