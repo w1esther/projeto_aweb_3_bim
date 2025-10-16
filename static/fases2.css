@@ -128,6 +128,7 @@ pre {
     color: #fbf0fa;
     text-shadow: 1px 1px 2px rgb(87, 14, 72);
     font-family: "SUSE Mono", monospace;
+    font-size: 25px;
 }
 .h2-2-css {
     width: 60px;
@@ -145,7 +146,7 @@ pre {
 .h1-2-f4 {
     font-size: 25px;
     color: #ffffff;
-    margin-left: 550px;
+    margin-left: 500px;
     margin-top: 60px;
     font-family: 'Press Start 2P', sans-serif;
 }
@@ -307,4 +308,25 @@ pre {
     position: relative;
     left: 600px;
     margin-bottom: 50px;
+}
+
+.img-html {
+    position: relative;
+    left: 450px;
+    top: 80px;
+    height: 300px;
+}
+
+.img-css{
+    position: relative;
+    left: 450px;
+    top: 80px;
+    height: 300px;
+}
+
+.img-js {
+    position: relative;
+    left: 450px;
+    top: 80px;
+    height: 300px;
 }

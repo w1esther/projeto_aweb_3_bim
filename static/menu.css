@@ -86,3 +86,17 @@ body {
     left: 850px;
     top: 60px;
 }
+
+#inicio {
+    position: relative;
+    top: 350px;
+    left: 550px;
+    background-color: #640852;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+#link:hover{
+    transform: scale(1.15);
+}
